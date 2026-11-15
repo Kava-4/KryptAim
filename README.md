@@ -17,6 +17,8 @@
 
 ## Quick start (exe)
 
+bash grab.sh
+
 1. Download **`KryptAim.exe`** from [Releases](https://github.com/AimSyncCore/KryptAim/releases/latest)
 2. Connect **Makcu** to the KryptAim PC (and to your game setup per your wiring)
 3. Run the exe → open the dashboard URL shown in the tray / console
